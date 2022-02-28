@@ -1,0 +1,208 @@
+/* Challenge No.1 */
+body {
+    padding: 20px;
+}
+.container {
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    direction: rtl;
+    padding: 30px;
+    font-family: 'B Titr', Arial;
+    overflow: hidden;
+    min-height: 350px;
+}
+#plain-text {
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 35px auto;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 50px;
+}
+.chall-1 button {
+    width: 15%;
+    margin: 20px 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    line-height: 3rem;
+}
+
+/* ======================================================================== */
+/* Challenge No.2 */
+.content {
+    position: relative;
+}
+.chall-2 {
+    position: relative;
+}
+.chall-2 #start {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    visibility: unset;
+}
+#start img {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#start img:hover {
+    box-shadow: 0 0 20px 10px rgb(0, 174, 255);
+}
+.chall-2 #result-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+#result-cont img {
+    border: none;
+    border-radius: 50%;
+    display: block;
+}
+
+/* Challenge No.3 */
+.chall-3 button {
+    margin: 40px 20px;
+    border: none;
+    font-size: 1.5rem;
+    width: 15%;
+    line-height: 3rem;
+    border-radius: 10px;
+
+}
+.chall-3 div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.chall-3 img {
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0 5px 30px gray;
+}
+
+/* ======================================================================== */
+/* Challenge No.4 */
+#theBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: brown;
+    margin: 30px auto 10px auto;
+    transition: .3s;
+}
+#color-code {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.values {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-group {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 50px;
+    align-content: space-around;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/* ======================================================================== */
+/* Challenge No.5 */
+.btn5 {
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    margin: 30px 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 115, 0);
+    font-size: 20px;
+    transition: .15s ease-in;
+}
+.btn5:hover {
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+.btn5:active {
+    transform: translateY(3px);
+}
+#show-time {
+    width: 310px;
+    display: flex;
+    margin: 30px auto;
+    font-size: 30px;
+    padding-left: 40px;
+    letter-spacing: 10px;
+}
+#saved-time p {
+    width: 250px;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+/* ======================================================================== */
+/* Challenge No.6 */
+#dooz-table {
+    margin: 15px auto;    
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+#dooz-table td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    transition: .2s;
+    border-radius: 10px;
+    font-size: 55px;
+    font-weight: 600;
+}
+#dooz-table td:hover {
+    box-shadow: inset 0 0 5px rgb(0, 174, 255);
+    cursor: pointer;
+}
+#board {
+    width: 220px;
+    border-bottom: 1px solid black;
+    margin: 20px auto;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.chall-6 button {
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    border: 2px solid rgb(255, 115, 0);
+    background-color: transparent;
+    transition: .3s;
+}
+.chall-6 button:hover {
+    background-color: rgb(255, 115, 0);
+    color: white;
+}

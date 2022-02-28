@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <title>JS challenges</title>
+</head>
+<body lang="fa">
+    <section class="chall-1 container">
+        <h2>چالش اول: «چند روزته؟»</h2>
+        <p id="plain-text"><i>نتیجه رو اینجا می نویسم.</i></p>
+        <button onclick="clicker()" id="run" class="btn btn-primary">محاسبه کن</button>
+        <button onclick="reset()" id="reset" class="btn btn-danger">از نو</button>
+    </section>
+    <section class="container chall-2">
+        <h2>چالش دوم: «سنگ، کاغذ، قیچی»</h2>
+        <div class="content">
+            <div id="start">
+                <img id="rock" src="static/images/rock.png" alt="" onclick="startGame(this)">
+                <img id="paper" src="static/images/paper.png" alt="" onclick="startGame(this)">
+                <img id="scissors" src="static/images/sissor.png" alt="" onclick="startGame(this)">
+            </div>
+            <div id="result-cont">
+                <div>
+                    <img id="user-img" src="static/images/paper.png" alt="">
+                    <p>انتخاب شما</p>
+                </div>
+                <h1 id="result" style="text-shadow: 0 0 10px rgb(0, 174, 255); cursor: pointer;" onclick="resetGame()">شما بردی</h1>
+                <div>
+                    <img id="pc-img" src="static/images/paper.png" alt="">
+                    <p>انتخاب کامپیوتر</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="chall-3 container">
+        <h2>چالش سوم: «گربه سازی»</h2>
+        <button onclick="catGenerator()"  class="btn btn-primary">یه گربه بساز</button>
+        <button onclick="catDelete()" class="btn btn-danger">یه گربه حذف کن</button>
+        <div id="catContainer">
+        </div>
+    </section>
+    <section class="chall-4 container">
+        <h2>چالش چهارم: «رنگ بازی»</h2>
+        <form class="values">
+            <div class="form-group">
+                <label for="red">قرمز</label>
+                <input type="range" id="red" min="0" max="255" step="1" onchange="changeColor()">
+            </div>
+            <div class="form-group">
+                <label for="green">سبز</label>
+                <input type="range" id="green" min="0" max="255" step="1" onchange="changeColor()">
+            </div>
+            <div class="form-group">
+                <label for="blue">آبی</label>
+                <input type="range" id="blue" min="0" max="255" step="1" onchange="changeColor()">
+            </div>
+            <div id="theBox"></div>
+            <div id="color-code">RGB code</div>
+        </form>
+    </section>
+    <section class="chall-5 container">
+        <h2>چالش پنجم: «کرنومتر»</h2>
+        <div class="btns5">
+            <button class="btn5" onclick="startTiming()">شروع</button>
+            <button class="btn5" onclick="stopTiming()">توقف</button>
+            <button class="btn5" onclick="saveTime()">ثبت</button>
+            <button class="btn5" onclick="resetTiming()">از نو</button>
+        </div>
+        <div id="show-time" dir="ltr"> 00 : 00 : 00 </div>
+        <div id="saved-time" dir="ltr"></div>
+    </section>
+    <section class="chall-6 container">
+        <h2>چالش ششم: «بازی دوز»</h2>
+        <br>
+        <p id="board">روی یک خانه کلیک کن</p>
+        <table id="dooz-table">
+            <tr>
+                <td onclick="play.call(this)"></td>
+                <td onclick="play.call(this)"></td>
+                <td onclick="play.call(this)"></td>
+            </tr>
+            <tr>
+                <td onclick="play.call(this)"></td>
+                <td onclick="play.call(this)"></td>
+                <td onclick="play.call(this)"></td>
+            </tr>
+            <tr>
+                <td onclick="play.call(this)"></td>
+                <td onclick="play.call(this)"></td>
+                <td onclick="play.call(this)"></td>
+            </tr>
+        </table>
+        <button onclick="doozReset()">از نو</button>
+    </section>
+    
+    <script src="./static/js/script.js"></script>
+    <script src="./static/js/bootstrap.min.js"></script>
+</body>
+</html>
