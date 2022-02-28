@@ -2,7 +2,7 @@
 > Here are some JavaScript challenges: Multiple games and simple applications in one page.
 > You can reach this page throw [HERE](https://little-and-fun-js-challenges.glitch.me/).
 
-** New challenges will be added to the list below over time. **
+**New challenges will be added to the list below over time.**
 ## 1- Age in days calculator:
 > This little app calculates your age in days and print it on screen. It's based on your machin local date and get your birthday by a prompt.
 
