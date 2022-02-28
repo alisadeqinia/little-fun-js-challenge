@@ -1,6 +1,6 @@
 # Little and fun js challenges
 > Here are some JavaScript challenges: Multiple games and simple applications in one page.
-> You can reach this page throw [HERE](https://little-and-fun-js-challenges.glitch.me/).
+> You can reach this page throw [HERE](https://little-fun-js-challenge.glitch.me/).
 
 **New challenges will be added to the list below over time.**
 ## 1- Age in days calculator:
